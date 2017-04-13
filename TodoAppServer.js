@@ -42,7 +42,7 @@ var argv = require('minimist')(args, {
     boolean: ['debug','repl','cdn'],
     default: {
         store: '.swarm',
-        port: 8000,
+        port: 80,
         debug: false,
         repl: false
     }
