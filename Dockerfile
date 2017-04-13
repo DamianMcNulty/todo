@@ -4,6 +4,6 @@ RUN git clone https://github.com/damianmcnulty/todo.git
 WORKDIR todo
 RUN npm install
 RUN chmod -R 777 /todo
-EXPOSE 80
+EXPOSE 8080
 CMD ["npm","start"]
 
